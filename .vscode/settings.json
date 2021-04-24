@@ -9,5 +9,8 @@
     "editor.formatOnSave": true,
     "editor.wordWrap": "on",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
+    "cSpell.ignoreWords": [
+        "proshop"
+    ]
 }
