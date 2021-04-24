@@ -1,0 +1,16 @@
+{
+    "name": "proshop",
+    "version": "1.0.0",
+    "description": "MERN Shopping app",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node backend/server"
+    },
+    "author": "giangnguyen13",
+    "proxy": "http://localhost:3000/",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
