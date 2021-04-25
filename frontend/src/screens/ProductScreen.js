@@ -13,7 +13,7 @@ const ProductScreen = (props) => {
             setProduct(res.data);
         };
         fetchProduct();
-    }, []);
+    }, [match]);
     return (
         <>
             <Link className='btn btn-light my-3' to='/'>
