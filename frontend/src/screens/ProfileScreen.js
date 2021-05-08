@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import { Form, Button, Row, Col } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import { getUserDetails, updateUserProfile } from '../actions/userAction';
@@ -24,7 +23,7 @@ const ProfileScreen = ({ location, history }) => {
     const userUpdateProfile = useSelector((state) => state.userUpdateProfile);
     const { success } = userUpdateProfile;
 
-    const redirect = location.search ? location.search.split('=')[1] : '/';
+    //const redirect = location.search ? location.search.split('=')[1] : '/';
 
     useEffect(() => {
         if (!userInfo) {
