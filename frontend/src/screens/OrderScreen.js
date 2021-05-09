@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { PayPalButton } from 'react-paypal-button-v2';
-import { Button, Row, Col, ListGroup, Image, Card } from 'react-bootstrap';
+import { Row, Col, ListGroup, Image, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import Message from '../components/Message';
@@ -17,7 +17,7 @@ const OrderScreen = ({ match }) => {
     const { order, loading, error } = orderDetails;
 
     const orderPay = useSelector((state) => state.orderPay);
-    const { loading: loadingPay, success: successPay } = orderDetails;
+    const { loading: loadingPay, success: successPay } = orderPay;
 
     useEffect(() => {
         const addPayPalScript = async () => {
