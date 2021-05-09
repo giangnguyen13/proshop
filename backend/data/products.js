@@ -71,18 +71,6 @@ const products = [
         rating: 0,
         numReviews: 0,
     },
-    {
-        name: 'Lorem ipsum dolor sit amet consectetur',
-        image: '/images/sample.jpg',
-        description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur dolores dolore eius alias delectus ad? At placeat tempora aliquid aut omnis, optio id ullam cum sequi nostrum vel eaque voluptas iure eius animi quasi eligendi veritatis excepturi aliquam, consectetur officiis vitae sunt? Mollitia officiis earum labore, porro in exercitationem incidunt',
-        brand: 'Sample',
-        category: 'Electronics',
-        price: 10.99,
-        countInStock: 0,
-        rating: 2.8,
-        numReviews: 4,
-    },
 ];
 
 export default products;
