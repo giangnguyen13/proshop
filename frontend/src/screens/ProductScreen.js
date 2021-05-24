@@ -18,6 +18,7 @@ import {
     listProductDetails,
     createProductReview,
 } from '../actions/productActions';
+import Meta from '../components/Meta';
 
 const ProductScreen = (props) => {
     const { history, match } = props;
@@ -75,6 +76,7 @@ const ProductScreen = (props) => {
                 <Message variant='danger'>{error}</Message>
             ) : (
                 <>
+                    <Meta title={product.name} />
                     <Row>
                         <Col md={6}>
                             <Image
